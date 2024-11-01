@@ -91,7 +91,6 @@ int	main(int argc, char *argv[])
 			return (1);
 		}
 		send_message(pid, argv[2]);
-		send_char(pid, '\0');
 		send_char(pid, '\n');
 	}
 	return (0);
